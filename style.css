@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(233, 222, 211);
+    /* background-image: url('//nebula.wsimg.com/4db9aa9…?AccessKeyId=531592D248B589D87A56&alloworigin=1'); */
     font-size: 14px;
     line-height: 1.3;
     font-family: sans-serif;
@@ -14,7 +15,7 @@ body {
 
 /* NavBar css start*/
 .nvabar-box {
-    padding: 20px 130px;
+    padding: 20px 162px;
 }
 
 .navbar {
@@ -38,17 +39,65 @@ a {
     padding: 3px 30px 4px;
 }
 
+/* NavBar css end*/
 
-
-.container-1{
+/* main css */
+.container-1 {
     display: flex;
     justify-content: center;
+    padding-left: 80px;
 }
 
-#heading{
+.box1 {
+    padding-top: 38px;
+}
+
+#heading {
     font-size: 96px;
-    font-family: trebuchet ms,helvetica,sans-serif;
+    font-family: trebuchet ms, helvetica, sans-serif;
     color: #6b6d6e;
     line-height: 1;
     text-shadow: 0 1px 1px #f2f0e9;
+}
+
+#heading2 {
+    font-family: trebuchet ms, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #6b6d6e;
+    line-height: 1.8;
+}
+
+/* logo img css */
+.logo-img {
+    width: 305px;
+    height: 194px;
+}   
+
+
+.container-2 {
+    padding: 0px 274px;
+    padding-top: 10px;
+    font-family: "over the rainbow";
+}
+
+.editor_excerpt {
+    font-family: "over the rainbow";
+    font-size: 28px;
+    font-weight: 400;
+    color: #6b6d6e;
+    line-height: 1.8;
+    word-wrap: break-word;
+}
+
+/* second img css */
+#img2{
+    /* position: absolute; */
+    /* top: 92%;
+    left: 11%; */
+    padding-top: 10px 20px;
+}
+
+.container-3{
+    background-color: #fff;
 }
