@@ -1,3 +1,4 @@
+
 /* Style for evry elements */
 * {
     padding: 0;
@@ -7,11 +8,11 @@
 
 body {
     background-color: rgb(233, 222, 211);
-    /* background-image: url('//nebula.wsimg.com/4db9aa9…?AccessKeyId=531592D248B589D87A56&alloworigin=1'); */
-    font-size: 14px;
-    line-height: 1.3;
-    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #6b6d6e;
 }
+
 
 /* NavBar css start*/
 .nvabar-box {
@@ -22,7 +23,7 @@ body {
     background-color: #ff6026;
     border: 1px solid #e74710;
     display: flex;
-    height: 50px;
+    height: 46px;
     list-style-type: none;
     justify-content: end;
     align-items: center;
@@ -40,16 +41,19 @@ a {
 }
 
 /* NavBar css end*/
+.main-container{
+    padding: 0 163px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
 
-/* main css */
 .container-1 {
     display: flex;
     justify-content: center;
-    padding-left: 80px;
 }
-
-.box1 {
-    padding-top: 38px;
+.box1{
+    padding-top: 19px;
 }
 
 #heading {
@@ -68,19 +72,20 @@ a {
     line-height: 1.8;
 }
 
-/* logo img css */
+logo img css
 .logo-img {
     width: 305px;
     height: 194px;
-}   
-
+    margin-top: -19px;
+   
+}  
 
 .container-2 {
-    padding: 0px 274px;
-    padding-top: 10px;
     font-family: "over the rainbow";
 }
-
+#img2{
+ padding-bottom: 24px;
+}
 .editor_excerpt {
     font-family: "over the rainbow";
     font-size: 28px;
@@ -88,16 +93,58 @@ a {
     color: #6b6d6e;
     line-height: 1.8;
     word-wrap: break-word;
+    padding: 0 37px;
+
 }
 
-/* second img css */
-#img2{
-    /* position: absolute; */
-    /* top: 92%;
-    left: 11%; */
-    padding-top: 10px 20px;
-}
-
-.container-3{
+.container-3 {
     background-color: #fff;
+    /* opacity: .3; */
+    width: 1100px;
+    height: 448px;
+    height: 448px;
+    padding: 25px 25px;
+    margin-left: 34px;
 }
+#pTag{
+    color: #A52A2A;
+    font-size: 22px;
+    font-family: trebuchet ms,helvetica,sans-serif;
+}
+#li-ptag{
+    list-style: none;
+    font-family: over the rainbow;
+    font-size: 22px;
+}
+
+#strong-ptag{
+    color: #A52A2A;
+    font-weight: bold;
+    padding-left: 15px;
+}
+#pTag2{
+    color: #A52A2A;
+    font-size: 22px;
+    font-family: trebuchet ms,helvetica,sans-serif;
+    padding-top: 35px;
+}
+#craft {
+    font-size: 24px;
+}
+#strong-craft{
+    font-weight: bold;
+    font-family: "over the rainbow";
+    padding-left: 15px;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .nvabar-box {
+        padding: 21px 117px;
+    }
+  
+ 
+  
+  }
