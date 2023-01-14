@@ -6,15 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title of the Project -->
-    <title>Project</title>
+    <title>First Project</title>
     <!-- css file for style -->
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap" rel="stylesheet">
+    <!-- Font Awesome link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
 <body>
     <!-- Heading of the Project section start-->
     <header>
+        <div class="dropdown" id="drop" style="display:none">
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li><a href="#news">Programmes</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+        <!-- ************************* -->
+
         <div class="nvabar-box">
             <ul class="navbar">
                 <li><a href="#home">Home</a></li>
@@ -24,87 +37,199 @@
             </ul>
 
         </div>
-    </header>
-    <!-- Heading of the Project section end-->
 
-
-    <main>
-
-        <div class="main-container">
-            <!-- ******************************* -->
-            <div class="container-1">
-                <div class="box1">
-                    <p id="heading">
-                        <i><strong>o</strong></i>ur<i><strong>G</strong></i>round<i><strong>w</strong></i>orks.
-                    </p>
-                    <p id="heading2"><strong>a leader in design thinking for empowered enterprise</strong></p>
-                </div>
-                <!-- logo image -->
-                <div class="logo-img">
-                    <img src="http://nebula.wsimg.com/8dc8a5d30a799bfc48ef72156a6ecc29?AccessKeyId=5EB8FDB0F5F99DADFB5F&disposition=0&alloworigin=1"
-                        alt="logo-Img">
-                </div>
-            </div>
-
-            <!-- ************************ -->
-            <div class="container-2">
-                <p class="editor_excerpt">through design thinking as the mechanism for change-making,
-                    we work to create a ground swell of impact with entities and communities that see themselves
-                    as part of <u>a wider grid-work of transformation</u></p>
-
-                <p class="editor_excerpt">...with informed <u>empathy</u> and deepened <u>insight</u> as
-                    the glue.</p>
-                <img id="img2"
-                    src="http://nebula.wsimg.com/90d538dd4f3475e8b7af79493bffcce5?AccessKeyId=531592D248B589D87A56&disposition=0&alloworigin=1"
-                    alt="">
-            </div>
-
-            <!-- ************************************** -->
-            <div class="container-3">
-                <p id="pTag">We facilitate problem solving with a hands-on design thinking approach that....</p>
-                <ul>
-                    <li id="li-ptag">
-                        <p> ▶︎<strong id="strong-ptag"> integrates systems change & design thinking </strong>to
-                            strategy, roll out & impact measurement;
-                        </p>
-                    </li>
-                    <li id="li-ptag">
-                        <p>▶︎<strong id="strong-ptag"> employs design thinking & action research to programme </strong>
-                            feasibility,campaign/project
-                            planning;
-                        </p>
-                    </li>
-                    <li id="li-ptag">
-                        <p>▶︎<strong id="strong-ptag"> integrates empathy as a skill</strong> for problem solving;
-                        </p>
-                    </li>
-                    <li id="li-ptag">
-                        <p> ▶︎<strong id="strong-ptag"> curates spaces & events</strong> for public communication;
-                        </p>
-                    </li>
-                    <li id="li-ptag">
-                        <p> ▶︎<strong id="strong-ptag"> mentors for leadership</strong> within an outcome-oriented
-                            frame;
-                        </p>
-                    </li>
-                    <li id="li-ptag">
-                        <p>▶︎<strong id="strong-ptag"> coaches for impact </strong> to combine media making and social
-                            change.
-                        </p>
-                    </li>
-                </ul>
-
-                <p id="pTag2">...and to evolve and deepen insight to...</p>
-                <p id="craft"> ▶︎ <strong id="strong-craft"><u>craft entrepreneurship that creates meaningful profit for wider well-being.</u></strong> </p>
-            </div> -->
-
-
-
+        <div onclick="myFunction()" class="hamburger-icon">
+            <button id="bar-button"><i id="icon" class="fa-solid fa-bars"></i>
+                <i id="cross-icon" class="fa-solid fa-xmark"></i>
+            </button><!-- hamburger icon -->
 
 
         </div>
+    </header>
+
+    <!-- Heading of the Project section end-->
+
+
+    <main class="main-container">
+        <div class="container-1">
+            <div class="box1">
+                <p id="heading">
+                    <i><strong>o</strong></i>ur<i><strong>G</strong></i>round<i><strong>w</strong></i>orks.
+                </p>
+                <p id="heading2"><strong>a leader in design thinking for empowered enterprise</strong></p>
+            </div>
+            <img class="logo-img"
+                src="http://nebula.wsimg.com/8dc8a5d30a799bfc48ef72156a6ecc29?AccessKeyId=5EB8FDB0F5F99DADFB5F&disposition=0&alloworigin=1"
+                alt="logo-Img">
+        </div>
+
+        <!-- ************************************* -->
+        <div class="container-2">
+            <p class="editor_excerpt">through design thinking as the mechanism for change-making,
+                we work to create a ground swell of impact with entities and communities that see themselves
+                as part of <u>a wider grid-work of transformation</u></p>
+
+            <p class="editor_excerpt">...with informed <u>empathy</u> and deepened <u>insight</u> as
+                the glue.</p>
+            <img id="img2"
+                src="http://nebula.wsimg.com/90d538dd4f3475e8b7af79493bffcce5?AccessKeyId=531592D248B589D87A56&disposition=0&alloworigin=1"
+                alt="">
+        </div>
+        <!-- ************************************** -->
+        <div class="container-3">
+            <p id="pTag">We facilitate problem solving with a hands-on design thinking approach that....</p>
+            <ul>
+                <li id="li-ptag">
+                    <p> ▶︎<strong id="strong-ptag"> integrates systems change & design thinking </strong>to
+                        strategy, roll out & impact measurement;
+                    </p>
+                </li>
+                <li id="li-ptag">
+                    <p>▶︎<strong id="strong-ptag"> employs design thinking & action research to programme </strong>
+                        feasibility, campaign /project planning;
+                    </p>
+                </li>
+                <li id="li-ptag">
+                    <p>▶︎<strong id="strong-ptag"> integrates empathy as a skill</strong> for problem solving;
+                    </p>
+                </li>
+                <li id="li-ptag">
+                    <p> ▶︎<strong id="strong-ptag"> curates spaces & events</strong> for public communication;
+                    </p>
+                </li>
+                <li id="li-ptag">
+                    <p> ▶︎<strong id="strong-ptag"> mentors for leadership</strong> within an outcome-oriented
+                        frame;
+                    </p>
+                </li>
+                <li id="li-ptag">
+                    <p>▶︎<strong id="strong-ptag"> coaches for impact </strong> to combine media making and social
+                        change.
+                    </p>
+                </li>
+            </ul>
+
+            <p id="pTag2">...and to evolve and deepen insight to...</p>
+            <p id="craft"> ▶︎ <strong id="strong-craft"><u>craft entrepreneurship that creates meaningful profit for
+                        wider well-being.</u></strong> </p>
+        </div>
+
+
+        <!-- ************************************* -->
+        <div class="container-4">
+            <h5>SOME OF OUR LATEST VENTURES ...in collective enterprise</h5>
+            <ul>
+                <li>
+                    <p id="latest-venturs-list"> <strong id="list">life*sustained ...</strong> a social enterprise
+                        connecting artisans and consumers directly.</p>
+                </li>
+                <li>
+                    <p id="latest-venturs-list"> <strong id="list">reimagining civil society ...</strong> a
+                        collaborative design process.</p>
+                </li>
+                <li>
+                    <p id="latest-venturs-list"><strong id="list"> bridge institute - ​impact assessment ...</strong>
+                        systems change designed collectively: measuring impact towards the UN sustainable development
+                        goals.</p>
+                </li>
+                <li>
+                    <p id="latest-venturs-list"><strong id="list"> vimor handloom foundation ...</strong>designing &
+                        curating the 45 year 'arrival' of the foundation - its
+                        contribution and the unveiling of its emerging future.</p>
+                </li>
+                <li>
+                    <p id="latest-venturs-list"><strong id="list">good pitch karnataka ...</strong> constructing &
+                        curating a global initiative for social projects with media
+                        at the heart of change-making that culminated in a very successful pitching event.</p>
+                </li>
+            </ul>
+        </div>
+        <!-- ****************************************** -->
+        <div class="container-5">
+            <hr>
+            <div id="box5">
+                <p>...with collectives & communities </p>
+                <p>...with projects & campaigns</p>
+                <p>...with schools & professional education </p>
+            </div>
+
+            <hr>
+        </div>
+        <!-- ****************************************** -->
+        <div class="container-box">
+            <div class="container6">
+                <p class="box-ptag">with a focus on strategy and systems to orchestrate robust individual and collective
+                    purpose, presence,
+                    sustenance.</p>
+                <h4>Our focus:​</h4>
+                <div><strong>level 1: build collective empathy & relevance</strong>evaluate and equip teams as
+                    self-organising units – with agility and cohesion of focusing on: ‘role’ - as a sense of self;
+                    ‘alignment’ – for team purpose; ‘impact’ – collective clarity on effectiveness.</div>
+
+                <div><strong>level 2: plan for impact</strong>envisage and construct action & capacity with a view to
+                    making
+                    an impact; frame the impact you intend to create; paint your story of impact & purpose.</div>
+
+                <div><strong>level 3: assess impact </strong>gauge and measure the shifts against the impact you
+                    intended to
+                    create (break down impact into bite sizes); track the story of impact; repeatedly revisit the
+                    pathway of
+                    impact.</div>
+
+                <div><strong>level 4: active induction </strong>prepare and orient new members of the collective so that
+                    people identify with ‘the purpose’ assimilate ‘their role’ become part of the ‘common purpose’.
+                </div>
+            </div>
+            <!-- ****************************************** -->
+
+            <div class="container6">
+                <p class="box-ptag">integrate media-making into change-making practice to knit impact collaborations to
+                    deepen public insight & transformation. </p>
+                <h4>Our focus:​</h4>
+                <div><strong>at the strategy level </strong>...reimagine issue-based change through media-making.</div>
+                <div><strong>approach</strong>…establish spaces for impact collaboration in socio-economic,
+                    environmental
+                    issues with media making.</div>
+                <div><strong>framework </strong>…Involve communities to engage with their issues through media-making.
+                </div>
+                <div><strong>evolve insight</strong>...among individuals, communities, organisations through making
+                    media-making an integrated and significant part of change-making.</div>
+                <div><strong>to trigger stepped up public inquiry, reflection and mobilised action</strong>...by making
+                    collective choices based on stories, information, data for collective progress and transformation,
+                    and;
+                    defines and presents ‘new citizenry’ engagement.</div>
+
+                <div><strong>to inspire & mobilise in the public domain </strong>...by creating compelling 'public
+                    pitches'
+                    to trigger wider commitment to the issue/enterprise.</div>
+
+                <div><strong></strong></div>
+
+            </div>
+            <!-- ****************************************** -->
+
+            <div class="container6">
+                <p class="box-ptag">facilitate education communities to work to integrate empathy as a skill through
+                    problem
+                    solving in daily practice.​​..and create new insight.</p>
+                <h4>Our focus:​</h4>
+                <div><strong>liberal spaces for applied learning </strong>that create enterprises of collective action,
+                    applied learning, impact and empowerment in primary, secondary and higher education.</div>
+                <div><strong>institutions imparting a professional education</strong>in areas related to development,
+                    management, design, law, communications, journalism for budding professionals to build robust
+                    professional practice.</div>
+                <div><strong>create 'encounters'</strong>that ​connect, confront, chance upon new experiential learning
+                    and
+                    builds a calm & collected mind of conscious intention and attention in a secular culture.</div>
+                <div><strong>experiential learning</strong>is brought about through current experience and ‘recycling’
+                    previous experience.</div>
+            </div>
+
+        </div>
+        <!-- ****************************************** -->
 
     </main>
+    <script src="index.js"></script>
 </body>
 
 </html>
