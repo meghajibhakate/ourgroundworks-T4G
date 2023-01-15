@@ -3,14 +3,12 @@
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
-    background-image: url('../../Downlaods/backgraound-img.png');
-
 }
 
 body {
-    /* background-color: rgb(233, 222, 211); */
-    /* background-image: url(`/Users/test/Downlaods/backgraound-img.jpg`); */
-    /* background-image: url('../../Downlaods/backgraound-img.png'); */
+
+    /* background-image: url('https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg'); */
+    /* background-image: url("image/img.png"); */
     background-color: rgb(220 208 196);
     color: #6b6d6e;
     line-height: 1.8;
@@ -108,9 +106,10 @@ a {
 
 
 
-#cross-icon{
-display: none;
+#cross-icon {
+    display: none;
 }
+
 .dropdown {
     background-color: #c86544;
     color: #6b6d6e;
@@ -120,13 +119,16 @@ display: none;
     padding: 22px;
     list-style: none;
 }
+
 .container-2 {
     font-family: "over the rainbow";
     width: 99%;
 }
-#img2{
- padding-bottom: 24px;
+
+#img2 {
+    padding-bottom: 24px;
 }
+
 .editor_excerpt {
     font-family: "over the rainbow";
     font-size: 28px;
@@ -138,46 +140,50 @@ display: none;
 
 }
 
-#img2{
+#img2 {
     width: 98%;
 }
+
 .container-3 {
-    background-color: #fff;
-    /* opacity: .3; */
-    /* width: 1100px; */
+    background-color: #f1e7e7;
+    ;
+    /* opacity: .7; */
     width: 98%;
     height: 50%;
     padding: 25px 25px;
     margin-left: 34px;
 }
 
-#pTag{
+#pTag {
     color: #A52A2A;
     font-size: 22px;
-    font-family: trebuchet ms,helvetica,sans-serif;
+    font-family: trebuchet ms, helvetica, sans-serif;
 }
-#li-ptag{
+
+#li-ptag {
     list-style: none;
     font-family: over the rainbow;
     font-size: 22px;
 }
 
-#strong-ptag{
+#strong-ptag {
     color: #A52A2A;
     font-weight: bold;
     padding-left: 15px;
 }
-#pTag2{
+
+#pTag2 {
     color: #A52A2A;
     font-size: 22px;
-    font-family: trebuchet ms,helvetica,sans-serif;
+    font-family: trebuchet ms, helvetica, sans-serif;
     padding-top: 35px;
 }
 
 #craft {
     font-size: 24px;
 }
-#strong-craft{
+
+#strong-craft {
     font-weight: bold;
     font-family: "over the rainbow";
     padding-left: 15px;
@@ -189,14 +195,14 @@ display: none;
 
 
 
-h5{
+h5 {
     color: #A52A2A;
     font-weight: bold;
     font-size: 27px;
 }
 
 
-.container-4{
+.container-4 {
     font-family: over the rainbow;
     font-weight: bold;
     font-size: 24px;
@@ -204,17 +210,20 @@ h5{
     padding: 1px 0px 1px 56px;
 }
 
-#list{
+#list {
     font-size: 26px;
-    font-family: trebuchet ms,helvetica,sans-serif;
+    font-family: trebuchet ms, helvetica, sans-serif;
 }
-.container-5{
+
+.container-5 {
     width: 103%;
     padding: 20px;
 }
-hr{
-    
-    border: 1px solid #6b6d6e;;
+
+hr {
+
+    border: 1px solid #6b6d6e;
+    ;
 }
 
 
@@ -228,24 +237,26 @@ hr{
     padding: 18px;
     color: #A52A2A;
 }
-.container-box{
-    font-family: trebuchet ms,helvetica,sans-serif;
+
+.container-box {
+    font-family: trebuchet ms, helvetica, sans-serif;
     display: flex;
     gap: 37px;
     font-size: 18px;
     font-weight: bold;
-    padding:0 36px;
+    padding: 0 36px;
     width: 100%;
 
 }
-.container6{
+
+.container6 {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.Main-box-ptag{
-    font-family: trebuchet ms,helvetica,sans-serif;
+.Main-box-ptag {
+    font-family: trebuchet ms, helvetica, sans-serif;
     display: flex;
     gap: 86px;
     font-size: 18px;
@@ -254,35 +265,77 @@ hr{
     margin-left: 30px;
 }
 
-h4{
-    font-size:26px ;
-    font-family: over the rainbow;;
+h4 {
+    font-size: 26px;
+    font-family: over the rainbow;
+    ;
 }
 
-#level-strong{
+#level-strong {
     color: #A52A2A;
+}
+
+.container7 {
+    width: 102%;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3 {
+    font-size: 33px;
+    font-family: trebuchet ms, helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#box7{
+    font-family: over the rainbow;
+    font-size: 28px;
+}
+#strong7{
+color: #A52A2A;
+font-weight: bold;
+}
+
+
+footer{
+    padding: 20px 30px 0;
+
+}
+.container8{
+    background:  #f1e7e7;;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 27px;
+    opacity: .7;
 }
 
 /* sdfghjkljhgfdsdfghjdssdfghlkjhgssdfghjklkjhgfsdfghjkkjhgfdssdfghjkjhgfdsdfghjkjhgfdsdfghjkjhgfdsasdfghjklklkkjhgfdsaqwertyuioo */
 /* Responsiv css */
-@media screen and (max-width: 1408px){
-    .container-3 { 
+@media screen and (max-width: 1408px) {
+    .container-3 {
         width: 99%;
-        height:477px;
+        height: 477px;
     }
-    #pTag{
+
+    #pTag {
         font-size: 21px;
     }
-    #pTag2{
+
+    #pTag2 {
         padding-top: 30px;
     }
 
-    .container-4{
+    .container-4 {
         font-size: 24px;
         width: 94%;
         padding: 1px 0px 1px 56px;
     }
 }
+
 @media screen and (max-width: 1308px) {
     #heading {
         font-size: 68px;
@@ -292,27 +345,30 @@ h4{
         font-size: 22px;
     }
 
-    #pTag2{
+    #pTag2 {
         padding-top: 28px;
     }
 
-    #li-ptag{
+    #li-ptag {
         font-size: 22px;
     }
+
     .container-3 {
         width: 101%;
         height: 500px;
         margin-left: 10px;
     }
-   
+
     #craft {
         font-size: 21px;
     }
+
     .container-4 {
         font-size: 24px;
         width: 100%;
         padding: 1px 0px 1px 56px;
     }
+
     .container-box {
         gap: 37px;
         padding: 0 36px;
@@ -328,6 +384,7 @@ h4{
     .main-container {
         padding: 10px 185px;
     }
+
     #heading {
         font-size: 67px;
     }
@@ -335,23 +392,24 @@ h4{
     #heading2 {
         font-size: 18px;
     }
-    
-    #img2{
+
+    #img2 {
         width: 100%;
     }
 
-    #pTag2{
+    #pTag2 {
         padding-top: 28px;
     }
 
-    #li-ptag{
+    #li-ptag {
         font-size: 22px;
     }
+
     .container-3 {
         width: 101%;
         height: 50%;
     }
-   
+
     #craft {
         font-size: 20px;
     }
@@ -364,7 +422,7 @@ h4{
 }
 
 @media screen and (max-width: 1000px) {
-    
+
     /* .editor_excerpt {
         padding: 0px 14px;
     } */
@@ -375,6 +433,7 @@ h4{
     #heading2 {
         font-size: 18px;
     }
+
     #heading {
         font-size: 58px;
     }
@@ -388,7 +447,7 @@ h4{
         height: 90px;
     }
 
-    .container-4{
+    .container-4 {
         font-size: 22px;
     }
 }
@@ -424,6 +483,11 @@ h4{
         padding: 0px 25px;
         /* width: 107%; */
     }
+
+    #drop-program {
+        width: 165px;
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -438,6 +502,11 @@ h4{
         width: 100%;
         padding-left: -20px;
         margin-left: 25px;
+    }
+
+    #drop-program {
+        width: 160px;
+    font-size: 14px;
     }
 }
 
@@ -478,17 +547,26 @@ h4{
     #drop {
         display: none;
     }
+
     .editor_excerpt {
         padding: 0px 18px;
         font-size: 21px;
     }
 
-    .container-4 h5 #list{
+    .container-4 h5 #list {
         font-size: 22px;
     }
+
     .container-box {
         gap: 25px;
         padding: 0px 0px;
+    }
+    #box7 h3{
+        font-size: 24px;
+    }
+    #drop-program {
+        width: 160px;
+    font-size: 14px;
     }
 }
 
@@ -525,7 +603,8 @@ h4{
     #heading2 {
         font-size: 18px;
     }
-/* 
+
+    /* 
     
 
     .logo-img {
@@ -541,9 +620,10 @@ h4{
     .container-3 {
         margin-left: 3px;
     }
-  
+
 }
-@media screen and (max-width: 550px){
+
+@media screen and (max-width: 550px) {
     .hamburger-icon {
         position: absolute;
         right: 7%;
@@ -554,43 +634,55 @@ h4{
     #heading {
         font-size: 45px;
     }
+
     #box5 {
-    
+
         gap: 40px;
         font-size: 14px;
         padding: 9px;
-       
+
     }
-    h5{
+
+    h5 h3{
         font-size: 20px;
     }
+
     .container-box {
         flex-wrap: wrap;
         padding-left: 26px;
     }
+
     .container-box {
         gap: 55px;
         padding: 0px 20px;
 
     }
-    .Main-box-ptag{
+
+    .Main-box-ptag {
         flex-wrap: wrap;
     }
+
     #list {
         font-size: 24px;
     }
+    #box7 {
+      
+        font-size: 22px;
+    }
 }
 
-@media screen and (max-width: 412px){
+@media screen and (max-width: 412px) {
     .hamburger-icon {
         position: absolute;
         right: 3%;
         top: 2%;
         display: block;
     }
-    .Main-box-ptag{
+
+    .Main-box-ptag {
         flex-wrap: wrap;
     }
+
     .container-3 {
         margin-left: 2px;
     }
@@ -599,27 +691,33 @@ h4{
         row-gap: 18px;
         padding-left: 0px;
     }
-        .container6 {
-            gap: 20px;
-            font-size: 14px;
-            margin-left: -17px;
-            padding-left: -11px;
-        }
 
-        .container-4 {
-            font-size: 17px;
-        }
+    .container6 {
+        gap: 20px;
+        font-size: 14px;
+        margin-left: -17px;
+        padding-left: -11px;
+    }
+
+    .container-4 {
+        font-size: 17px;
+    }
 }
+
 @media screen and (max-width: 400px) {
     .logo-img {
         width: 263px;
         height: 133px;
     }
+    .container-1 {
+        width: 109%;
+    }
     #list {
         font-size: 21px;
     }
+
     .main-container {
-     
+
         padding: 0px 28px;
     }
 
@@ -637,27 +735,33 @@ h4{
         top: 2%;
         display: block;
     }
+
     .editor_excerpt {
         padding: 0px 16px;
         font-size: 20px;
     }
 
-    .container-4 h5 #list{
+    .container-4 h5 #list {
         font-size: 18px;
     }
 
-    .Main-box-ptag{
+    .Main-box-ptag {
         flex-wrap: wrap;
         font-size: 15px;
 
     }
+
     #box5 {
         gap: 17px;
         font-size: 14px;
         padding: 1px;
     }
+
     .container-4 {
         font-size: 17px;
+    }
+    #box7 {
+        font-size: 20px;
     }
 }
 
@@ -682,6 +786,7 @@ h4{
     .container-3 {
         margin-left: 1px;
     }
+
     .container-box {
         flex-wrap: wrap;
         padding-left: 48px;
@@ -689,13 +794,14 @@ h4{
 
 
 
-    #box5{
+    #box5 {
         flex-wrap: wrap;
     }
 
-    .container-4 #latest-venturs-list{
+    .container-4 #latest-venturs-list {
         font-size: 18px;
     }
+
     #box5 {
         gap: 17px;
         font-size: 14px;
@@ -705,10 +811,11 @@ h4{
 
 
 @media screen and (max-width: 280px) {
-  
+
     .editor_excerpt {
         font-size: 12px;
     }
+
     .main-container {
         padding: 10px 45px;
         gap: 33px;
@@ -719,24 +826,54 @@ h4{
         width: 125%;
     } */
 
-    #pTag2{
+    #pTag2 {
         padding-top: 25px;
         font-size: 19px;
     }
-    #pTag #li-ptag #craft { 
+
+    #pTag #li-ptag #craft {
         font-size: 19px;
     }
 
     .container-3 {
         margin-left: -9px;
         width: 113%;
-        }
-        .container-4 {
-            font-size: 8px;
-            padding: 1px 0px 1px 19px;
-        }
+    }
 
-h5{
-    font-size: 16px;
+    .container-4 {
+        font-size: 8px;
+        padding: 1px 0px 1px 19px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+    #box7 {
+     
+        font-size: 28px;
+    }
 }
-}
+
+
+
+
+
+#drop-program{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background:#f2ebeb;
+    color: #6b6d6e;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid;
+    cursor: pointer;
+    width: 226px;
+    font-size: 27px;
+    padding-left: 21px;
+    list-style: none;
+  }
+
+  /* #drop-program li a{
+    padding-left: 5px;
+  } */
