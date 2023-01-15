@@ -11,15 +11,15 @@ function myFunction() {
    }
 }
 
-function aboutClick(){
-    var program=document.getElementById("drop-program")
+// function aboutClick(){
+//     var program=document.getElementById("drop-program")
 
-    if (program.style.display == "none") {
-        program.style.display = "flex";
-    } else {
-        program.style.display = "none";
-    } 
-}
+//     if (program.style.display == "none") {
+//         program.style.display = "flex";
+//     } else {
+//         program.style.display = "none";
+//     } 
+// }
 
 // if(hamburger=="block"){
 //     document.getElementById("icon").style.display = "none";

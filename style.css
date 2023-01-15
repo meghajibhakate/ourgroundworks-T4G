@@ -858,8 +858,8 @@ footer{
 
 
 
-#drop-program{
-    display: flex;
+/* #drop-program{
+    display: none;
     position: absolute;
     flex-direction: column;
     background:#f2ebeb;
@@ -872,8 +872,21 @@ footer{
     font-size: 27px;
     padding-left: 21px;
     list-style: none;
-  }
-
-  /* #drop-program li a{
-    padding-left: 5px;
   } */
+  #drop-program {
+    width: 19%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    padding: 12px 16px;
+    z-index: 1;
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .drop-p:hover  #drop-program {
+display: block;
+  }
