@@ -12,6 +12,7 @@ body {
     background-color: rgb(220 208 196);
     color: #6b6d6e;
     line-height: 1.8;
+    font-family: trebuchet ms,helvetica,sans-serif;
 
 }
 
@@ -352,7 +353,21 @@ font-size: 25px;
 font-style: italic;
 }
 
+/* Programms page css   ****************************************************************************** */
 
+.program1-Good {
+    width: 100%;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#program-stron-head{
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: #A52A2A;
+}
 /* ************************************************************************************************************* */
 /* Responsiv css */
 @media screen and (max-width: 1408px) {
@@ -722,6 +737,11 @@ font-style: italic;
     .container-4 {
         padding: 1px 0px 1px 27px;
     }
+    .container-1 {
+        padding-left: -20px;
+        padding-left: 9px;
+    }
+    
     /* #box7 {
         font-size: 22px;
     } */
@@ -742,7 +762,10 @@ font-style: italic;
     .container-3 {
         margin-left: 2px;
     }
-
+    .box1 {
+        padding-top: 19px;
+        margin-left: -14px;
+    }
     .container-1 {
         row-gap: 18px;
         padding-left: 0px;
@@ -771,6 +794,9 @@ font-style: italic;
     footer {
         padding: 9px 42px;
     }
+    .container-1 {
+        padding-left: -20px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -781,8 +807,12 @@ font-style: italic;
 
     .container-1 {
         width: 109%;
+        padding-left: 0;
     }
-
+    .box1 {
+        padding-top: 19px;
+        margin-left: -14px;
+    }
     #list #box7 {
         font-size: 21px;
 
