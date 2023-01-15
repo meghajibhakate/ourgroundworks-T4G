@@ -7,8 +7,8 @@
 
 body {
 
-    /* background-image: url('https://thumbs.dreamstime.com/z/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg'); */
-    /* background-image: url("image/img.png"); */
+    /* background-image: url(''); 
+   background-image: url("image/img.png"); */
     background-color: rgb(220 208 196);
     color: #6b6d6e;
     line-height: 1.8;
@@ -32,9 +32,7 @@ body {
     border: 1px solid #e74710;
     padding: 9px;
     border-radius: 10px;
-
 }
-
 
 .nvabar-box {
     padding: 20px 162px;
@@ -49,8 +47,6 @@ body {
     justify-content: end;
     align-items: center;
 }
-
-
 
 a {
     font-family: 'Strait', sans-serif;
@@ -73,7 +69,6 @@ a {
     padding-top: 19px;
 }
 
-
 .container-1 {
     display: flex;
     justify-content: center;
@@ -88,8 +83,6 @@ a {
     text-shadow: 0 1px 1px #f2f0e9;
 }
 
-
-
 #heading2 {
     font-family: trebuchet ms, helvetica, sans-serif;
     font-weight: bold;
@@ -103,8 +96,6 @@ a {
     width: 270px;
     height: 156px;
 }
-
-
 
 #cross-icon {
     display: none;
@@ -137,7 +128,6 @@ a {
     line-height: 1.8;
     word-wrap: break-word;
     padding: 0 37px;
-
 }
 
 #img2 {
@@ -145,9 +135,9 @@ a {
 }
 
 .container-3 {
-    background-color: #f1e7e7;
-    ;
-    /* opacity: .7; */
+    /* background-color: #f1e7e7; */
+    background-color: #eae8e3;
+
     width: 98%;
     height: 50%;
     padding: 25px 25px;
@@ -189,18 +179,11 @@ a {
     padding-left: 15px;
 }
 
-
-
-
-
-
-
 h5 {
     color: #A52A2A;
     font-weight: bold;
     font-size: 27px;
 }
-
 
 .container-4 {
     font-family: over the rainbow;
@@ -226,8 +209,6 @@ hr {
     ;
 }
 
-
-
 #box5 {
     display: flex;
     gap: 58px;
@@ -246,7 +227,6 @@ hr {
     font-weight: bold;
     padding: 0 36px;
     width: 100%;
-
 }
 
 .container6 {
@@ -268,7 +248,6 @@ hr {
 h4 {
     font-size: 26px;
     font-family: over the rainbow;
-    ;
 }
 
 #level-strong {
@@ -289,22 +268,23 @@ h3 {
     font-weight: bold;
 }
 
-#box7{
+#box7 {
     font-family: over the rainbow;
     font-size: 28px;
 }
-#strong7{
-color: #A52A2A;
-font-weight: bold;
+
+#strong7 {
+    color: #A52A2A;
+    font-weight: bold;
 }
 
 
-footer{
-    padding: 20px 30px 0;
-
+footer {
+    padding: 20px 80px 0;
 }
-.container8{
-    background:  #f1e7e7;;
+
+.container8 {
+    background: #f1e7e7;
     width: 100%;
     height: 150px;
     display: flex;
@@ -313,7 +293,7 @@ footer{
     opacity: .7;
 }
 
-/* sdfghjkljhgfdsdfghjdssdfghlkjhgssdfghjklkjhgfsdfghjkkjhgfdssdfghjkjhgfdsdfghjkjhgfdsdfghjkjhgfdsasdfghjklklkkjhgfdsaqwertyuioo */
+/* ************************************************************************************************************* */
 /* Responsiv css */
 @media screen and (max-width: 1408px) {
     .container-3 {
@@ -334,6 +314,9 @@ footer{
         width: 94%;
         padding: 1px 0px 1px 56px;
     }
+    #about-ul-tag {
+        padding: 38px;
+    }
 }
 
 @media screen and (max-width: 1308px) {
@@ -341,7 +324,7 @@ footer{
         font-size: 68px;
     }
 
-    #heading2 {
+    #heading2  #li-ptag {
         font-size: 22px;
     }
 
@@ -349,9 +332,9 @@ footer{
         padding-top: 28px;
     }
 
-    #li-ptag {
+    /* #li-ptag {
         font-size: 22px;
-    }
+    } */
 
     .container-3 {
         width: 101%;
@@ -372,6 +355,10 @@ footer{
     .container-box {
         gap: 37px;
         padding: 0 36px;
+    }
+    .box1 {
+        padding-top: 19px;
+        margin-left: 25px;
     }
 }
 
@@ -419,13 +406,22 @@ footer{
         padding: 0px 25px;
 
     }
+
+    /* about page csss************************************** */
+    .about-box1 {
+        flex-wrap: wrap;
+    }
+
+   
+        .founder-img {
+            height: 519px;
+            width: 102%;
+            padding: 15px 40px;
+        }
+    
 }
 
 @media screen and (max-width: 1000px) {
-
-    /* .editor_excerpt {
-        padding: 0px 14px;
-    } */
     .main-container {
         padding: 10px 177px;
     }
@@ -481,7 +477,6 @@ footer{
     .container-box {
         gap: 65px;
         padding: 0px 25px;
-        /* width: 107%; */
     }
 
     #drop-program {
@@ -506,16 +501,9 @@ footer{
 
     #drop-program {
         width: 160px;
-    font-size: 14px;
+        font-size: 14px;
     }
 }
-
-
-
-
-
-
-
 
 @media screen and (max-width: 700px) {
     .nvabar-box {
@@ -561,12 +549,17 @@ footer{
         gap: 25px;
         padding: 0px 0px;
     }
-    #box7 h3{
+
+    #box7 h3 {
         font-size: 24px;
     }
+
     #drop-program {
         width: 160px;
-    font-size: 14px;
+        font-size: 14px;
+    }
+    #h2-tag {
+        font-size: 34px;
     }
 }
 
@@ -587,7 +580,12 @@ footer{
         flex-direction: column-reverse;
         padding-top: 22px;
         row-gap: 18px;
+        padding-left: 41px;
     }
+    /* .container-1 {
+        padding-left: 41px;
+        width: 111%;
+    } */
 
     .main-container {
         padding: 10px 55px;
@@ -603,14 +601,6 @@ footer{
     #heading2 {
         font-size: 18px;
     }
-
-    /* 
-    
-
-    .logo-img {
-        width: 318px;
-        height: 136px;
-    } */
 
     .editor_excerpt {
         padding: 0px 18px;
@@ -643,7 +633,7 @@ footer{
 
     }
 
-    h5 h3{
+    h5 h3 {
         font-size: 20px;
     }
 
@@ -654,21 +644,27 @@ footer{
 
     .container-box {
         gap: 55px;
-        padding: 0px 20px;
-
+        padding: 0px 5px;
     }
 
     .Main-box-ptag {
         flex-wrap: wrap;
+        margin-left: 9px;
     }
 
-    #list {
+    #list   #box7{
         font-size: 24px;
+        
     }
-    #box7 {
-      
+    #h2-tag {
+        font-size: 28px;
+    }
+    .container-4 {
+        padding: 1px 0px 1px 27px;
+    }
+    /* #box7 {
         font-size: 22px;
-    }
+    } */
 }
 
 @media screen and (max-width: 412px) {
@@ -709,11 +705,14 @@ footer{
         width: 263px;
         height: 133px;
     }
+
     .container-1 {
         width: 109%;
     }
-    #list {
+
+    #list #box7 {
         font-size: 21px;
+
     }
 
     .main-container {
@@ -756,13 +755,24 @@ footer{
         font-size: 14px;
         padding: 1px;
     }
-
+    .container6 {
+        margin-left: 2px;
+    }
     .container-4 {
+        padding: 1px 0px 1px 35px;
+        font-size: 18px;
+    }
+
+    #box7 , h3{
+        font-size: 22px;
+    }
+    /* .container-4 {
         font-size: 17px;
-    }
-    #box7 {
+    } */
+
+    /* #box7 {
         font-size: 20px;
-    }
+    } */
 }
 
 @media screen and (max-width: 300px) {
@@ -792,7 +802,9 @@ footer{
         padding-left: 48px;
     }
 
-
+    .container6 {
+        margin-left: 2px;
+    }
 
     #box5 {
         flex-wrap: wrap;
@@ -821,10 +833,6 @@ footer{
         gap: 33px;
     }
 
-    /* .container-3 {
-        margin-left: -3px;
-        width: 125%;
-    } */
 
     #pTag2 {
         padding-top: 25px;
@@ -848,9 +856,9 @@ footer{
     h5 {
         font-size: 16px;
     }
+
     #box7 {
-     
-        font-size: 28px;
+       font-size: 25px;
     }
 }
 
@@ -858,22 +866,8 @@ footer{
 
 
 
-/* #drop-program{
-    display: none;
-    position: absolute;
-    flex-direction: column;
-    background:#f2ebeb;
-    color: #6b6d6e;
-    padding: 8px;
-    font-size: 12px;
-    border: 1px solid;
-    cursor: pointer;
-    width: 226px;
-    font-size: 27px;
-    padding-left: 21px;
-    list-style: none;
-  } */
-  #drop-program {
+/* dropdown css */
+#drop-program {
     width: 19%;
     display: none;
     position: absolute;
@@ -885,8 +879,49 @@ footer{
     list-style: none;
     font-size: 18px;
     cursor: pointer;
-  }
-  
-  .drop-p:hover  #drop-program {
-display: block;
-  }
+}
+
+.drop-p:hover #drop-program {
+    display: block;
+}
+
+
+
+
+/* about page css start              ***************************************************************** */
+
+    .about-box1 {
+        /* background-color: #f1e7e7; */
+        background-color: #eae8e3;
+        display: flex;
+        gap: 17px;
+        padding: 20px;
+        width: 100%;
+    }
+
+#h2-tag{
+    font-size: 54px;
+    font-family: "over the rainbow";
+}
+#about-p-tag {
+    padding: 23px;
+    font-size: 20px;
+    font-family: trebuchet ms, helvetica, sans-serif;
+}
+.about-box2{
+    font-size: 23px;
+    font-weight: 400;
+    padding: 10px;
+    width: 100%;
+}
+
+#about-ul-tag{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-strong-tag{
+    font-size: 25px;
+    font-style: italic;
+}
