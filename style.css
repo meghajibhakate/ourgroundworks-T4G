@@ -357,16 +357,82 @@ font-style: italic;
 
 .program1-Good {
     width: 100%;
-    font-size: 19px;
+    padding: 15px;
+    font-size: 21px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 #program-stron-head{
     font-size: 28px;
     text-align: center;
     font-weight: bold;
     color: #A52A2A;
+}
+
+
+
+#program-stron-head2{
+    font-size: 28px;
+    font-weight: bold;
+    color: #B22222;
+}
+
+.program2-Good{
+    width: 100%;
+    padding: 15px;
+    font-size: 21px;
+}
+
+#que-h1-tag{
+    font-weight: bold;
+    color: #B22222;
+    font-size: 20px;
+}
+
+#em-tag{
+    color: #B22222;
+    font-family: "over the rainbow";
+    font-size: 20px;
+}
+#PITCHES{
+    font-size: 22px;
+}
+
+#Category{
+color: #B22222;
+font-family: "over the rainbow";
+font-weight: bold;
+font-size: 28px;
+}
+
+.program3-Good{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#category-box1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#program3{
+    color: #B22222;
+    font-size: 26px;
+}
+#program-p{
+    font-size: 24px;
+    margin-top: -33px;
+}
+
+.link-email{
+    display: flex;
+}
+#link-email{
+    color: #ff6026;
 }
 /* ************************************************************************************************************* */
 /* Responsiv css */
@@ -502,13 +568,13 @@ font-style: italic;
     }
 
     #heading2 {
-        font-size: 18px;
+        font-size: 21px;
     }
 
     #heading {
-        font-size: 58px;
+        font-size: 62px;
     }
-
+   
     .main-container {
         padding: 10px 160px;
     }
@@ -542,11 +608,11 @@ font-style: italic;
     }
 
     #heading {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     #heading2 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .container-box {
@@ -668,7 +734,10 @@ font-style: italic;
         flex-direction: column;
         gap: 33px;
     }
-
+    .box1 {
+        padding-top: 19px;
+        margin-left: -10px;
+    }
     #heading {
         font-size: 55px;
     }
@@ -809,9 +878,10 @@ font-style: italic;
         width: 109%;
         padding-left: 0;
     }
+    
     .box1 {
         padding-top: 19px;
-        margin-left: -14px;
+        margin-left: 11px;
     }
     #list #box7 {
         font-size: 21px;
@@ -970,7 +1040,10 @@ font-style: italic;
     h5 {
         font-size: 16px;
     }
-
+    .container-box {
+        flex-wrap: wrap;
+        padding-left: 6px;
+    }
     #box7 {
        font-size: 25px;
     }
