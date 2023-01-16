@@ -31,7 +31,7 @@ body {
 #bar-button {
     background-color: #ff6026;
     border: 1px solid #e74710;
-    padding: 9px;
+    padding: 14px;
     border-radius: 10px;
 }
 
@@ -742,13 +742,17 @@ font-size: 28px;
         font-size: 55px;
     }
 
-    #heading2 {
+    #heading2 ,.program1-Good , .program1-Good, .program3-Good {
         font-size: 18px;
     }
 
     .editor_excerpt {
         padding: 0px 18px;
         font-size: 22px;
+    }
+    #program-p {
+        font-size: 14px;
+
     }
 
     .container-3 {
