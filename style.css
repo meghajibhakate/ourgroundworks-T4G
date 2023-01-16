@@ -742,7 +742,7 @@ font-size: 28px;
         font-size: 55px;
     }
 
-    #heading2 ,.program1-Good , .program1-Good, .program3-Good {
+    #heading2 ,.program1-Good , .program2-Good, .program3-Good {
         font-size: 18px;
     }
 
@@ -750,7 +750,7 @@ font-size: 28px;
         padding: 0px 18px;
         font-size: 22px;
     }
-    #program-p {
+    #program-p ,#PITCHES{
         font-size: 14px;
 
     }
@@ -758,7 +758,13 @@ font-size: 28px;
     .container-3 {
         margin-left: 3px;
     }
-
+    #program-stron-head2, #Category, #program3 {
+        font-size: 22px;
+     
+    }
+    #program-p, #PITCHES {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 550px) {
