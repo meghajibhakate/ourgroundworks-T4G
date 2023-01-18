@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the Project -->
+    <title>Contact</title>
+    <!-- css file for style -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap" rel="stylesheet">
+    <!-- Font Awesome link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+
+<body>
+    <!-- Heading of the Project section start-->
+    <header>
+        <div class="dropdown" id="drop" style="display:none">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li><a href="programms.html">Programmes</a></li>
+                <li> <a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+        <!-- ************************* -->
+
+        <div class="nvabar-box">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <!-- IIIIIIIIIIIIIII -->
+                <li class="drop-p"><a href="#">Programmes
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <div id="drop-program">
+                        <a id="pro" href="programms.html">Good Pitch Local Karnataka</a>
+                        <hr>
+                        <a id="pro" href="program2.html">Changemedia</a>
+
+                    </div>
+
+
+                    <!-- IIIIIIIIIIIIIIIII -->
+                </li>
+                <li> <a href="con.html" target="_blank">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div onclick="myFunction()" class="hamburger-icon">
+            <button id="bar-button"><i id="icon" class="fa-solid fa-bars"></i>
+                <i id="cross-icon" class="fa-solid fa-xmark"></i>
+            </button><!-- hamburger icon -->
+
+
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="container-1">
+            <div class="box1">
+                <p id="heading">
+                    <i><strong>o</strong></i>ur<i><strong>G</strong></i>round<i><strong>w</strong></i>orks.
+                </p>
+                <p id="heading2"><strong>a leader in design thinking for empowered enterprise</strong></p>
+            </div>
+            <img class="logo-img"
+                src="http://nebula.wsimg.com/8dc8a5d30a799bfc48ef72156a6ecc29?AccessKeyId=5EB8FDB0F5F99DADFB5F&disposition=0&alloworigin=1"
+                alt="logo-Img">
+        </div>
+
+
+        <!-- (((((((((((((((((()))))))))))))))))) -->
+        <img id="img3"
+            src="http://nebula.wsimg.com/90d538dd4f3475e8b7af79493bffcce5?AccessKeyId=531592D248B589D87A56&amp;disposition=0&amp;alloworigin=1"
+            alt="">
+
+
+        </main>
+        <div class="contact-container">
+            <div class="contac-div1">
+
+                <div class="form">
+                    <div class="conytac-box1">
+                        <p id="send-note">send us a note</p>
+                        <hr>
+                    </div>
+                    <form action="">
+                        <div class="container-contact">
+    
+    
+                            <label for="name">Name: *</label>
+                            <input type="text" placeholder="Enter Name" name="Name" id="Name" required>
+    
+                            <label for="email">Email: *</label>
+                            <input type="email" placeholder="Enter Email" name="email" id="email" required>
+    
+                            <div id="check-box"> <input type="checkbox" id="receive" name="receive" value="receive">
+                                <label for="receive"> Check here to receive email updates
+                                </label>
+                            </div>
+    
+    
+                            <label for="subject">Subect: *</label>
+                            <input type="subject" placeholder="Subject" name="Subject" id="Subject" required>
+    
+    
+                            <label for="Message">Message: *</label>
+                            <textarea name="message" id="Message" class="form-value" required></textarea>
+                            <!-- <input type="messahe"  name="Message" id="Message" required> -->
+    
+                            <button type="submit" class="submit">Submit</button>
+                        </div>
+    
+                    </form>
+                </div>
+                <div class="conytac-box1">
+                    <p id="send-note">Contact</p>
+                    <hr>
+                    <div id="contact-info">
+                        <p>98/13 Wheeler Road Extension</p>
+                        <p>Near Basha Store</p>
+                        <p>Cooke Town</p>
+
+                        <p>Bangalore KA 560005 IN</p>
+                        <p>+91.8904040009</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <!-- ((((((((((((((((())))))))))))))))) -->
+
+
+
+
+
+
+
+
+    <!-- </main> -->
+    <footer>
+        <div class="container8">
+            <p>Copyright @ Tara Rao. All rights reserved.</p>
+            <div>
+                <img src="//nebula.wsimg.com/01f11d68b9f92d7aa8b77ed39a24a54e?AccessKeyId=531592D248B589D87A56&amp;disposition=0&amp;alloworigin=1"
+                    style="vertical-align:middle;width:23px;height:23px;">
+                <img src="//nebula.wsimg.com/c9d696e2a26ab0ae2ed03ff5f5cd4c89?AccessKeyId=531592D248B589D87A56&amp;disposition=0&amp;alloworigin=1"
+                    style="vertical-align:middle;width:23px;height:23px;">
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

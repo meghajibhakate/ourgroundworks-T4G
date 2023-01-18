@@ -7,7 +7,8 @@
 
 body {
     /* background-color: rgb(220 208 196); */
-    background-color: #dedac5;;
+    background-color: #dedac5;
+    ;
     color: #6b6d6e;
     line-height: 1.8;
     font-family: trebuchet ms, helvetica, sans-serif;
@@ -312,7 +313,7 @@ footer {
     background-color: rgb(249, 243, 236);
 }
 
-#pro{
+#pro {
     color: #6b6d6e;
 }
 
@@ -448,7 +449,7 @@ footer {
 
 
 /* progarm page 2 css********************************************** */
-.program2-div1{
+.program2-div1 {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -456,16 +457,18 @@ footer {
     align-items: center;
     gap: 25px;
     font-size: 28px;
-    font-family:"over the rainbow" ;
+    font-family: "over the rainbow";
     padding: 20px;
     text-align: center;
 }
-#head-tag{
-color: #A52A2A;
-font-family: trebuchet ms, helvetica, sans-serif;
-font-size: 30px;
+
+#head-tag {
+    color: #A52A2A;
+    font-family: trebuchet ms, helvetica, sans-serif;
+    font-size: 30px;
 }
-.program2-div2{
+
+.program2-div2 {
     width: 100%;
     font-size: 12px;
     font-weight: bold;
@@ -475,7 +478,7 @@ font-size: 30px;
 }
 
 
-.program2-div3{
+.program2-div3 {
     width: 100%;
     font-size: 22px;
     font-weight: bold;
@@ -492,28 +495,30 @@ font-size: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-   
+
 }
 
 
 
-#div4-pro{
+#div4-pro {
     color: #B22222;
     font-size: 23px;
     text-align: center;
     font-family: trebuchet ms, helvetica, sans-serif;
 
 }
-#insight{
+
+#insight {
 
     font-weight: bolder;
     text-align: center;
     font-size: 32px;
 }
 
-#nsight-2{
+#nsight-2 {
     padding: 15px;
 }
+
 .program2-div5 {
     width: 100%;
     display: flex;
@@ -522,15 +527,17 @@ font-size: 30px;
     gap: 15px;
     padding: 32px;
 }
-#Category-pro{
+
+#Category-pro {
     color: #B22222;
     font-size: 23px;
     font-family: "over the rainbow";
 
 }
-.program2-div6{
+
+.program2-div6 {
     width: 100%;
-    padding:20px 40px 100px;
+    padding: 20px 40px 100px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -539,12 +546,109 @@ font-size: 30px;
 
 /* Contact page css */
 
-#img3{
-height: 30px;
+#img3 {
+    height: 30px;
 }
-.contac-div1{
-    width: 100%;
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.contac-div1 {
+    display: flex;
+    /* flex-direction: column; */
+    /* width: 80%;
+    background-color: antiquewhite;
+    padding: 50px; */
+
+    width: 78%;
+    background-color: antiquewhite;
+    padding: 29px;
+    gap: 65px;
+justify-content: center;
+}
+
+.form{
+
+    width: 58%;
+
+}
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+    justify-content: center;
+    padding: 20px;
+}
+
+#send-note {
+    /* color: #6b6d6e; */
+    color: #A52A2A;
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+}
+
+label {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #A52A2A;
+    /* color: #6b6d6e; */
+    line-height: 1.8;
+    padding-bottom: 4px;
+}
+
+input {
+    width: 150%;
+    height: 39px;
+    background-color: white;
+    border: 1px solid rgb(189, 189, 182);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#Message{
+    height: 160px;
+    font-size: 18px;
+    width: 150%;
+
+}
+#check-box{
+    display: flex;
+}
+#receive{
+    width: 18px;
+    margin-right: 10px;
+}
+
+
+.submit{
+    width: 27%;
+    height: 40px;
+    font-size: 19px;
+    margin-top: 21px;
+    background-color: #d3623d;
+    color: #eae8e3;
+    border: none;
+    border-radius: 8px;
+}
+
+#contact{
+color: #A52A2A;
+    text-align: center;
+    font-size: 30px;
+}
+#contact-info{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 16px 30px;
+}
+
 
 /* ************************************************************************************************************* */
 /* Responsiv css */
@@ -701,8 +805,18 @@ height: 30px;
     .container-4 {
         font-size: 22px;
     }
+    .contac-div1 {
+        display: flex;
+        flex-direction: column;
+        width: 78%;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .form {
+        width: 68%;
+    }
 }
-
 @media screen and (max-width: 986px) {
     .nvabar-box {
         padding: 20px 100px;
@@ -740,6 +854,12 @@ height: 30px;
         width: 165px;
         font-size: 17px;
     }
+    .form {
+        width: 100%;
+    }
+    input, #Message {
+        width: 142%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -761,6 +881,9 @@ height: 30px;
         width: 160px;
         font-size: 14px;
 
+    }
+    .form {
+        width: 100%;
     }
 }
 
@@ -821,6 +944,16 @@ height: 30px;
 
     #h2-tag {
         font-size: 34px;
+    }
+    label{
+font-size: 18px;
+    }
+
+    .form {
+        width: 100%;
+    }
+    .contac-div1 {
+        width: 96%;
     }
 }
 
@@ -901,6 +1034,13 @@ height: 30px;
 
     #list {
         font-size: 16px;
+    }
+    .form {
+        width: 100%;
+    }
+    .contact-container {
+        padding: 20px;
+        width: 100%;
     }
 }
 
@@ -1023,6 +1163,13 @@ height: 30px;
     .container-1 {
         padding-left: -20px;
     }
+
+    input, #Message {
+        width: 152%;
+    }
+    .contac-div1 {
+        width: 99%;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -1121,13 +1268,11 @@ height: 30px;
 
     }
 
-    /* .container-4 {
-        font-size: 17px;
-    } */
+    input ,#Message{
+        /* font-size: 16px;w */
+        width: 169%;
 
-    /* #box7 {
-        font-size: 20px;
-    } */
+    }
 }
 
 @media screen and (max-width: 300px) {
