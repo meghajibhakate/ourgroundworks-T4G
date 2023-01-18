@@ -46,7 +46,9 @@ body {
     justify-content: end;
     align-items: center;
 }
-
+#nav-list:hover{
+background-color: #de4517;
+}
 a {
     font-family: 'Strait', sans-serif;
     font-weight: 400;
@@ -1105,9 +1107,15 @@ font-size: 18px;
         height: 40px;
         font-size: 18px;
     }
-    /* #box7 {
-        font-size: 22px;
-    } */
+    footer {
+        padding: 3%;
+     }
+
+     .contact-container {
+        padding: 0px;
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 412px) {
@@ -1178,6 +1186,9 @@ font-size: 18px;
         width: 42%;
         height: 40px;
         font-size: 18px;
+    }
+    footer {
+       padding: 10px 0px;
     }
 }
 
@@ -1285,6 +1296,12 @@ font-size: 18px;
 
     #contact-info {
         font-size: 16px;
+    }
+
+
+    .contac-div1 {
+        width: 99%;
+        padding: 4px 45px 0px 3px;
     }
 }
 @media screen and (max-width: 360px){
