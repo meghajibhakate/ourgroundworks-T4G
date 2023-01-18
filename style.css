@@ -1282,8 +1282,18 @@ font-size: 18px;
         width: 169%;
 
     }
-}
 
+    #contact-info {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 360px){
+    .submit {
+        width: 84%;
+        height: 40px;
+        font-size: 18px;
+    }
+}
 @media screen and (max-width: 300px) {
     .logo-img {
         width: 200px;
@@ -1333,6 +1343,9 @@ font-size: 18px;
         width: 69%;
         height: 40px;
         font-size: 18px;
+    }
+    .container-contact {
+        padding: 14px;
     }
 }
 
