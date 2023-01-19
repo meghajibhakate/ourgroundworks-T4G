@@ -1,16 +1,22 @@
 
 var hamburger = document.getElementById("drop")
+
+// var ham=document.getElementById("icon")
+// var cross=document.getElementById("cross")
+
+cross.style.display="none"
 function myFunction() {
-    // var hamburger=document.getElementById("drop")
-    if (hamburger.style.display === "block") {
-        // document.getElementById("icon").style.display = "none"; 
+    if (hamburger.style.display == "block") {
+   
+
         hamburger.style.display = "none";
     }
     else {
         hamburger.style.display = "block";
+  
+
     }
 }
-
 
 
 
