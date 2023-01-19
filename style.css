@@ -1135,6 +1135,12 @@ input {
         width: 100%;
     }
 
+    .food {
+        display: flex;
+        margin-top: 47px;
+        gap: 7px;
+    }
+
 }
 
 @media screen and (max-width: 412px) {
@@ -1327,6 +1333,11 @@ input {
         width: 99%;
         padding: 4px 45px 0px 3px;
     }
+    .food {
+       
+        margin-top: 37px;
+   
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -1391,6 +1402,10 @@ input {
     .container-contact {
         padding: 14px;
     }
+    .food {
+        margin-top: 30px;
+   
+    }
 }
 
 
@@ -1440,5 +1455,10 @@ input {
 
     #box7 {
         font-size: 25px;
+    }
+    .food {
+      
+        margin-top: 25px;
+      
     }
 }
