@@ -12,8 +12,6 @@ function myFunction() {
     }
     else {
         hamburger.style.display = "block";
-  
-
     }
 }
 
