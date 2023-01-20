@@ -102,7 +102,9 @@ a {
 #cross-icon {
     display: none;
 }
-
+#cross{
+    display: none;
+}
 .dropdown {
     background-color: #c86544;
     color: #6b6d6e;
