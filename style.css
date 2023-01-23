@@ -1311,10 +1311,10 @@ input {
         padding-left: 0;
     }
 
-    .box1 {
+    /* .box1 {
         padding-top: 19px;
         margin-left: 11px;
-    }
+    } */
 
     #list #box7 {
         font-size: 21px;
@@ -1335,7 +1335,7 @@ input {
     }
 
     #heading2 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .hamburger-icon {
