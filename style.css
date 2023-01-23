@@ -863,7 +863,7 @@ input {
     }
 
     #heading {
-        font-size: 55px;
+        font-size: 62px;
     }
 
     #heading2 {
@@ -898,7 +898,14 @@ input {
         padding: 0px 21px;
         flex-wrap: wrap;
     }
+    .container-1 {
+        /* width: 111%; */
+        width: 99%;
 
+        flex-direction: column-reverse;
+        place-items: center;
+        gap: 20px;
+    }
     .Main-box-ptag {
         gap: 33px;
         font-size: 18px;
@@ -916,6 +923,7 @@ input {
     .form {
         width: 100%;
     }
+    
 }
 @media screen and (max-width: 710px) {
     .food {
@@ -951,11 +959,11 @@ input {
     }
 
     #heading {
-        font-size: 38px;
+        font-size: 56px;
     }
 
     #heading2 {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     #drop {
@@ -1000,6 +1008,10 @@ input {
 
     .contac-div1 {
         width: 96%;
+    }
+    .logo-img {
+        width: 252px;
+        height: 120px;
     }
 }
 
@@ -1088,6 +1100,10 @@ input {
     }
     #box7 {
         font-size: 24px;
+    }
+    .box1 {
+        padding-top: 0px;
+        margin-left: 0px;
     }
 }
 
