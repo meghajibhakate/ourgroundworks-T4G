@@ -327,7 +327,6 @@ footer {
     padding: 12px 16px;
     z-index: 1;
     list-style: none;
-    /* width: 12%; */
     font-size: 18px;
     cursor: pointer;
 }
@@ -337,9 +336,11 @@ footer {
 }
 .drop-p:hover #drop-program {
     display: block;
-    background-color: rgb(249, 243, 236);
+    background-color: rgb(249, 240, 236);
 }
-
+#drop-program :hover{
+    color: #ec6f35;
+}
 #pro {
     color: #6b6d6e;
 }
