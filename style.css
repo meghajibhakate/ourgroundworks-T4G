@@ -470,6 +470,9 @@ footer {
 
 #link-email {
     color: #ff6026;
+
+    text-decoration: underline;
+
 }
 
 
@@ -854,7 +857,9 @@ input {
     }
 
     .main-container {
-        padding: 10px 101px;
+        /* padding: 10px 101px; */
+        padding: 10px 89px;
+
     }
 
     #heading {
@@ -940,7 +945,9 @@ input {
     }
 
     .main-container {
-        padding: 10px 99px;
+        /* padding: 10px 99px; */
+        padding: 10px 84px;
+
     }
 
     #heading {
@@ -1079,6 +1086,9 @@ input {
         padding: 20px;
         width: 100%;
     }
+    #box7 {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -1158,6 +1168,11 @@ input {
         margin-top: 47px;
         gap: 7px;
     }
+.main-container {
+    /* padding: 9px 26px; */
+    padding: 8px 46px;
+
+}
 
 }
 
@@ -1434,7 +1449,8 @@ input {
     }
 
     .main-container {
-        padding: 10px 45px;
+        /* padding: 10px 45px; */
+        padding: 10px 26px;
         gap: 33px;
     }
 
@@ -1472,7 +1488,7 @@ input {
     }
 
     #box7 {
-        font-size: 25px;
+        font-size: 21px;
     }
     .food {
       
