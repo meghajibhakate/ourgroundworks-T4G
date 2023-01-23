@@ -1013,6 +1013,10 @@ input {
         width: 252px;
         height: 120px;
     }
+    .nav {
+        padding: 22px;
+        list-style: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -1104,6 +1108,9 @@ input {
     .box1 {
         padding-top: 0px;
         margin-left: 0px;
+    }
+    #drop {
+        display: none;
     }
 }
 
@@ -1208,10 +1215,10 @@ input {
         margin-left: 2px;
     }
 
-    .box1 {
+    /* .box1 {
         padding-top: 19px;
         margin-left: -14px;
-    }
+    } */
 
     .container-1 {
         row-gap: 18px;
